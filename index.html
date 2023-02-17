@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>HTML tags</title>
+        <title>Form</title>
         <meta http-equiv="Content-type" content="text/html;charset-UTF-8"/>
     </head>
     <body>
-     <h1>Header 1</h1>
-     <h2>Header 2</h2>
-     <h3>Header 3</h3>
-     <h4>header 4</h4>
-     <h5>header 5</h5>
-     <h6>header 6</h6>
-     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quia ullam tempore voluptatem. Ducimus minus exercitationem in aspernatur voluptate ipsam consequatur voluptates optio. Hic quo amet, earum rem saepe dolore!</p>
-     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, necessitatibus.</p>
-     <span>span tag 1 </span>
-     <span>span tag 2 </span>
-     <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, labore.</span>
-     <a href="http://google.com" target="_blank" rel="noopener noreferrer">link</a>
-     <img src="img/images.jpeg" alt="alt text">
-     <ul>
-        <li>li tag</li>
-        <li>li tag</li>
-        <li>li tag</li>
-        <li>li tag</li>
-     </ul>
-     <ul>
-        <li>li tag</li>
-        <li>li tag</li>
-        <li>li tag</li>
-        <li>li tag</li>
-     </ul>
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <div>
+                <input type="text" name="username" value="Uername">
+            </div>
+            <div>
+                <input disabled type="password" name="username">
+            </div>
+            <div>
+                <p><input checked type="radio" name="first"> first</p>
+                <p><input type="radio" name="first"> second</p>
+            </div>
+            <br>
+            <div>
+                <p><input type="radio" name="second"> first</p>
+                <p><input checked type="radio" name="second"> second</p>
+            </div>
+
+            <div>
+                <p><input checked type="checkbox" name="second"> first </p>
+                <p><input  type="checkbox" name="checkbox1"> second</p>
+                <p><input  type="checkbox" name="checkbox2"> third</p>
+            </div>
+            <div>
+                <select name="color" id="colorselect">
+                    <option value="black">Black</option>
+                    <option value="red">Red</option>
+                    <option value="white">White</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Send</button>
+            </div>
+            
+        </form>
     </body>
 </html>
